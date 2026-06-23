@@ -1,7 +1,7 @@
 {
   "name": "a0-prompt-builder",
-  "version": "2026.06.16",
-  "last_standardized_at": "2026.06.16 GMT-3",
+  "version": "2026.06.23",
+  "last_standardized_at": "2026.06.23 GMT-3",
   "description": "Vibecode skill for building native iOS and Android apps with a0.dev. React Native + Expo with full App Store / Google Play pipeline.",
   "license": "MIT",
   "origin_url": "https://github.com/AndreAlmeidaDC/a0-prompt-builder",

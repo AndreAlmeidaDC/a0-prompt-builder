@@ -109,6 +109,12 @@ Não. Ela gera os prompts e você cola no a0.dev. Funciona em qualquer chat de I
 Tenha cautela: a plataforma é voltada a indie hackers e não traz, por padrão,
 certificações como SOC 2 ou HIPAA nem logs de auditoria. A skill sinaliza isso.
 
+**E acessibilidade?**
+A skill traz uma referência de acessibilidade, mas ela cobre só interface web (DOM). O
+a0.dev gera app mobile nativo, onde acessibilidade é outra coisa (touch target, screen
+reader nativo, contraste próprio), e isso não está coberto aqui por enquanto. No fluxo,
+a pergunta de acessibilidade web não se aplica: responda que não e siga.
+
 ## Estrutura do repositório
 
 ```
@@ -118,6 +124,7 @@ references/
   platform-a0dev.md               # Navegação mobile, permissões, ASO, pipeline de loja
   archetypes.md                   # Guia de escolha de plataforma
   version-check.md                # Protocolo de auto-atualização
+  accessibility-web.md            # Acessibilidade web (opcional, ver gate na Fase 1)
 templates/
   PRD.md                          # Template de requisitos de produto
   DATA_MODEL.md                   # Template de modelo de dados
